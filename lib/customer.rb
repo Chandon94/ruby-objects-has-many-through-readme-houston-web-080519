@@ -14,4 +14,8 @@ class Customer
     @@all
   end
   
+  def waiter
+    @waiter
+  end
+  
 end
