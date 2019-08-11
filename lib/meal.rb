@@ -12,5 +12,8 @@ attr_accessor :waiter, :customer, :total, :tip
     @all << self
   end
   
-  def 
+  def self.all
+    @@all
+  end 
+  
 end
